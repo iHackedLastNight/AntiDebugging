@@ -4,10 +4,10 @@
 
 void MessageB0x() {
     int count = 0;
-    do {
+    while (true) {
         MessageBoxA(NULL, "Error", "Oops! Caught a Debugger", MB_ICONERROR);
         count++; 
-    } while (true);  
+    }
 }
 
 // the main >
